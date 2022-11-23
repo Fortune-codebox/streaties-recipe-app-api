@@ -9,7 +9,7 @@ class RecipeSerializer(serializers.ModelSerializer):
     """Serializer for Recipe"""
     class Meta:
         model = Recipe
-        fields = ['id', 'title', 'time_minutes']
+        fields = ['id', 'title', 'time_minutes', 'price']
         read_only_fields = ['id']
 
 
